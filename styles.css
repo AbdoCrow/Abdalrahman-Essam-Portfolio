@@ -362,92 +362,81 @@ footer .social-media a {
 
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
-        padding: 10px;
-        text-align: center;
+        flex-direction: column !important;
+        padding: 10px !important;
+        text-align: center !important;
     }
 
     nav ul {
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
+        flex-direction: column !important;
+        width: 100% !important;
+        padding: 0 !important;
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 5px 0 !important;
     }
-}
-@media (max-width: 768px) {
+
     .header-content {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column !important;
+        text-align: center !important;
     }
 
     header img {
-        width: 80%;
-        margin-top: 10px;
+        width: 80% !important;
+        margin-top: 10px !important;
     }
 
     h1 {
         font-size: 3.5rem !important;
     }
-}
-@media (max-width: 768px) {
-    .svg-transition {
-        height: 60px;
-    }
-}
-@media (max-width: 768px) {
+
     .about-content {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column !important;
+        text-align: center !important;
     }
 
     .about-content img {
-        width: 80%;
-        margin-top: 10px;
+        width: 80% !important;
+        margin-top: 10px !important;
     }
-}
-@media (max-width: 768px) {
+
     #skills .skills-container {
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
     }
 
     #skills .skill {
-        width: 45%;
-        margin: 5px;
+        width: 45% !important;
+        margin: 5px !important;
     }
-}
-@media (max-width: 768px) {
+
     .projects-container {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .project {
-        width: 100%;
-        padding: 15px;
+        width: 100% !important;
+        padding: 15px !important;
     }
 
     .screenshots img {
-        width: 100%;
+        width: 100% !important;
     }
-}
-@media (max-width: 768px) {
+
     #contact form {
-        width: 100%;
-        padding: 10px;
+        width: 100% !important;
+        padding: 10px !important;
     }
-}
-@media (max-width: 768px) {
+
     footer .social-media {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
     }
 
     footer .social-media a {
-        font-size: 1.2rem;
-        margin: 5px;
+        font-size: 1.2rem !important;
+        margin: 5px !important;
     }
 }
