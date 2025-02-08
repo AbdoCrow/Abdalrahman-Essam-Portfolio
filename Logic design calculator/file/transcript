@@ -1,0 +1,33 @@
+# vsim sub_tb 
+# Start time: 04:22:36 on Dec 15,2024
+# Loading work.sub_tb
+# Loading work.add_w_sub
+# Loading work.two_comp
+# Loading work.fa
+# Loading work.xor_top
+# Loading work.comb1
+# Loading work.sign_mag
+vsim sub_tb
+# End time: 04:23:00 on Dec 15,2024, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim sub_tb 
+# Start time: 04:23:00 on Dec 15,2024
+# Loading work.sub_tb
+# Loading work.add_w_sub
+# Loading work.two_comp
+# Loading work.fa
+# Loading work.xor_top
+# Loading work.comb1
+# Loading work.sign_mag
+
+add wave *
+
+run 100ns
+# Testbench completed. Results saved to sub.txt
+# ** Note: $finish    : sub_tb.v(46)
+#    Time: 640 ps  Iteration: 0  Instance: /sub_tb
+# 1
+# Break in Module sub_tb at sub_tb.v line 46
+
+# End time: 04:27:07 on Dec 15,2024, Elapsed time: 0:04:07
+# Errors: 0, Warnings: 0

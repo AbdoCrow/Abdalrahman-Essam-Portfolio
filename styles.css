@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**************************had to use !important as after using bootstrab he ruined everything *****************************/
+
+body {
+    background: #B9E5E8 !important;
+    color: #4d6183 !important;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 1.6  !important;
+
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(20, 20, 30, 0.879);
+    padding: 15px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    width: 50rem; 
+    height: auto;
+    display: flex;
+    object-fit: contain;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #DFF2EB; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #f39c12;
+}
+/*************may change the background color**************************/
+header {
+    background: radial-gradient(circle at center, rgba(224, 242, 236, 1) 30%, rgb(180, 233, 236) 100%);
+    padding: 2rem;
+    margin-top: 60px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-text {
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif !important;;
+    font-size: 6rem !important;;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: #151b26; 
+}
+
+.name-part {
+    color: #242e41;  
+}
+
+.essam {
+    font: 900 90px Arial !important;;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    
+}
+
+
+header p {
+    font-size: 1.2rem !important;
+    color: #1d2535c0 !important;
+    
+}
+
+header img {
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 1rem;
+    
+}
+/************************************/
+.drip-container {
+    position: relative;
+    width: 100%;
+    
+}
+/************************************/
+
+#about {
+    text-align: center;
+    background-color: #DFF2EB; 
+    padding: 2rem; 
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about-content p {
+    flex: 1;
+    color: #4A628A; 
+    
+}
+
+.about-content img {
+    height: auto;
+    width: 350px;
+    max-width: 300px;
+    
+    border-radius: 5%;
+    margin-right: 4rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #B9E5E8; 
+    
+}
+
+
+#skills .skills-container {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+#skills .skill {
+    margin: 1rem;
+    text-align: center;
+    color: #4A628A; 
+
+    width: 100px; 
+    height: 100px; 
+    border-radius: 45%; 
+    background: #DFF2EB; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease-in-out;
+}
+
+#skills .skill i {
+    font-size: 2rem !important;
+    margin-bottom: 0.5rem;
+    color: #4A628A !important; 
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+#projects .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects .project {
+    background-color: #DFF2EB !important;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 80%;
+    border-radius: 5px;
+    color: #4A628A !important;
+}
+
+#projects .github-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: black !important;
+    text-decoration: none;
+}
+
+#projects .screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.download-folder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #DFF2EB; 
+    gap: 8px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #4A628A;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.presentation-container {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#presentation {
+    width: 100%;
+    height: 100%;
+}
+
+
+.download-folder:hover {
+    background: #7AB2D3;
+}
+
+.download-folder i {
+    font-size: 3rem;
+    color: #4A628A;
+    margin-bottom: 10px;
+}
+
+
+#projects .screenshots img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.fourScreenShot {
+    width: 100%;
+    text-align: center;
+}
+
+#contact {
+    background-color: #B9E5E8; 
+}
+
+#contact form {
+    display: flex !important;;
+    flex-direction: column;
+    width: 50% !important; 
+    margin: 0 auto; 
+    gap: 10px !important;    
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px !important;
+    border: 1px solid #7AB2D3; 
+    border-radius: 5px;
+    color: #4A628A; 
+}
+
+#contact button {
+    background-color: #7AB2D3; 
+    color: #DFF2EB; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+    
+}
+#contact button:hover {
+    background: #4A628A;
+    
+}
+
+footer {
+    background-color: #7AB2D3; 
+    color: #DFF2EB; 
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer .social-media {
+    margin-bottom: 1rem;
+}
+
+footer .social-media a {
+    color: #DFF2EB; 
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #skills .skills-container {
+        flex-direction: column;
+    }
+
+    #projects .project {
+        width: 100%;
+    }
+    #contact form {
+        width: 90%; 
+    }
+}
+
+.project-img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+.modal-body img {
+    max-height: 80vh;
+    object-fit: contain;
+}
