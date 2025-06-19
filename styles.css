@@ -1,0 +1,210 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0D1B2A 0%, #1B263B 50%, #0D1B2A 100%);
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #778DA9;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #A0C4FF;
+}
+
+.social-icon {
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #A0C4FF;
+}
+
+.skill-card {
+    background-color: #1B263B;
+    border-radius: 3.5rem;
+    padding: 1.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #415A77;
+    
+    width: 200px;  
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NET{
+    background-color: #1B263B;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    
+    width: 100px;  
+    height: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dotnet-card {
+    background-color: white;
+}
+
+/* Style for the black-stroked text inside the .NET card */
+.dotnet-card h3 {
+    color: transparent; /* Makes the inside of the text see-through */
+    -webkit-text-stroke: 2px black; /* Adds a 2px black outline */
+    text-stroke: 2px black; /* Standard property for text outline */
+}
+
+.skill-card:hover {
+    transform: scale(1.5) translateY(-5px); /* Increase size by 10% */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-card {
+    background-color: #1B263B;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    border: 1px solid #415A77;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.05);
+}
+
+.tech-pill {
+    background-color: #415A77;
+    color: #E0E1DD;
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-wave {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%230D1B2A' fill-opacity='1' d='M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,138.7C672,128,768,160,864,186.7C960,213,1056,235,1152,224C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wave-inverted {
+    transform: scaleY(-1);
+    top: -1px;
+    bottom: auto;
+}
+
+.fade-in {
+    animation: fadeInAnimation 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.slide-in-left {
+    animation: slideInLeftAnimation 1s ease-in-out forwards;
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.slide-in-right {
+    animation: slideInRightAnimation 1s ease-in-out forwards;
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeftAnimation {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRightAnimation {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #A0C4FF;
+}
+
+.abstract-art {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, #A0C4FF, #778DA9, #415A77, #1B263B);
+    border-radius: 50%;
+    filter: blur(30px);
+    opacity: 0.3;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.text-stroke {
+    -webkit-text-stroke: 2px #E0E1DD;
+    color: transparent;
+}
