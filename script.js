@@ -38,7 +38,7 @@ const handleScrollAnimation = () => {
                 }, index * 100); // Cascading effect delay
             }
         }
-        // Optional: to re-hide elements when they scroll out of view
+       
         // else if(!elementInView(el,0)) {
         //     hideScrollElement(el);
         // }

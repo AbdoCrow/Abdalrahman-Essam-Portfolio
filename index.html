@@ -8,6 +8,13 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" referrerpolicy="no-referrer" rel="stylesheet" />
 </head>
 <body class="antialiased">
@@ -102,9 +109,30 @@
             <h2 class="text-4xl font-bold text-center mb-16 text-[#A0C4FF]">Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
 
+            <!-- Project 1: Hospital and Ambulance Simulation System -->
                 <div class="project-card animate-scroll">
-                    <img alt="Hospital and Ambulance Simulation System Screenshot" class="w-full h-64 object-cover project-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJajieV4sHLXDUBmynNrGs1aLBLg46yamC4gz54eTQ-GzlApqBNrE_D1soruIJLnpxD6ukjzW_ji67gAXKl5k3gqq5OEbgtCYKaO2kBg7x_hMdRvYSiX8GbwwKDZhx6uzZhhiAtndc6ecagiqHKoXZXkfbirhRv0cwJBrtZhevzK-3bHEMV3lZO3EfxpwXTz1NN8IbKv84ES0Fvp20oVXn0lVbB5VvIPJxGFvJyLfu-_jE6r0wMLWJfymZEA-Qp_6H4w10SSzXvsY" />
-                    <div class="p-6">
+    
+                        <div class="swiper project-1-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="images/Project1/img1.png" data-lightbox="project-1" data-title="Simulation Dashboard">
+                                        <img src="images/Project1/img1.png" alt="Project 1 Image 1"/>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/Project1/img2.png" data-lightbox="project-1" data-title="Simulation Dashboard">
+                                        <img src="images/Project1/img2.png" alt="Project 1 Image 2"/>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="images/Project1/img3.png" data-lightbox="project-1" data-title="Simulation Dashboard">
+                                        <img src="images/Project1/img3.png" alt="Project 1 Image 3"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="p-6">
                         <h3 class="text-2xl font-semibold mb-3 text-[#E0E1DD]">Hospital and Ambulance Simulation System</h3>
                         <p class="text-[#BDBDBD] mb-4 text-sm">Designed and implemented a system in C++ to simulate hospital operations and ambulance management.</p>
                         <div class="flex flex-wrap mb-4">
@@ -118,9 +146,33 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="project-card animate-scroll" >
-                    <img alt="Telecommunication Company Database Application Screenshot" class="w-full h-64 object-cover project-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBe1fPsAAylJyDeibRSgTJOI8P2RPVdlmtZNg4N2Q7LUKatdJz-MxZbxfhZFzTc-hfbHgNX0e6R5lxfAvgDv5LTnsscs2w6-CwpZCrLpG3WsrIx1lTO7FC9A7nl1Lwaz-O_eOnsp5JGucirbMLWbAULb7NgxxTEt-hX0mHDHZKX-lva_1SvDN-zhqJ6Q-NoOy-vUWGV8k7A-dIb3ffa5d9HVqfilmLsJoLH3pKeqW9lYFToQG4JZeVe3ZImL7r0EqAgGhFUcnehXLU" />
+                <!-- Project 2: Telecommunication Company Database Application -->
+                    <div class="project-card animate-scroll">
+                    <div class="swiper project-2-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="images/Project2/img1.png" data-lightbox="project-2" data-title="Signup/Login Page">
+                                    <img src="images/Project2/img1.png" alt="Project 2 Image 1"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="images/Project2/img2.png" data-lightbox="project-2" data-title="User profile/data">
+                                    <img src="images/Project2/img2.png" alt="Project 2 Image 2"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="images/Project2/img3.png" data-lightbox="project-2" data-title="User's Calling/SMS History">
+                                    <img src="images/Project2/img3.png" alt="Project 2 Image 3"/>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="images/Project2/img4.png" data-lightbox="project-2" data-title="Customer service dashboard">
+                                    <img src="images/Project2/img4.png" alt="Project 2 Image 4"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold mb-3 text-[#E0E1DD]">Telecommunication Company Database Application</h3>
                         <p class="text-[#BDBDBD] mb-4 text-sm">Developed a database management system using C# and SQL to handle customer records and streamline data access.</p>
@@ -133,15 +185,21 @@
                             <a class="inline-block bg-[#A0C4FF] text-[#0D1B2A] py-2 px-4 rounded-lg font-medium hover:bg-[#778DA9] transition-colors" href="#">Live Demo</a>
                             <a class="inline-block border border-[#A0C4FF] text-[#A0C4FF] py-2 px-4 rounded-lg font-medium hover:bg-[#A0C4FF] hover:text-[#0D1B2A] transition-colors" href="#">GitHub</a>
                         </div>
-
                     </div>
                 </div>
-
-                    <div class="project-card animate-scroll">
-                    <img alt="Collaborative Real-Time Text Editor Screenshot" class="w-full h-64 object-cover project-image" src="https://placehold.co/600x400/1B263B/E0E1DD?text=Text+Editor"/>
+                <!-- Project 3: Collaborative Real-Time Text Editor -->
+                <div class="project-card animate-scroll">
+                    <div class="swiper project-3-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="images/Project3/img1.png" data-lightbox="project-3" data-title="Editor View"><img src="images/Project3/img1.png" alt="Project 3 Image 1"/></a></div>
+                            <div class="swiper-slide"><a href="images/Project3/img2.png" data-lightbox="project-3" data-title="Multiple Users"><img src="images/Project3/img2.png" alt="Project 3 Image 2"/></a></div>
+                            <div class="swiper-slide"><a href="images/Project3/img3.png" data-lightbox="project-3" data-title="Cursor Sync"><img src="images/Project3/img3.png" alt="Project 3 Image 3"/></a></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold mb-3 text-[#E0E1DD]">Collaborative Real-Time Text Editor</h3>
-                        <p class="text-[#BDBDBD] mb-4 text-sm">Engineered a full-stack application for concurrent document editing, implementing a tree-based CRDT algorithm and robust client-server networking using Java and WebSockets to manage sessions and real-time cursor synchronization.</p>
+                        <p class="text-[#BDBDBD] mb-4 text-sm">Engineered a full-stack application for concurrent document editing, implementing a tree-based CRDT algorithm and robust client-server networking using Java and WebSockets.</p>
                         <div class="flex flex-wrap mb-4">
                             <span class="tech-pill">Java</span>
                             <span class="tech-pill">WebSockets</span>
@@ -155,18 +213,47 @@
                         </div>
                     </div>
                 </div>
-                
+                <!-- Project 4: Operating System Scheduler -->
                 <div class="project-card animate-scroll">
-                    <img alt="Operating System Scheduler Screenshot" class="w-full h-64 object-cover project-image" src="https://placehold.co/600x400/1B263B/E0E1DD?text=OS+Scheduler"/>
+                    <div class="swiper project-4-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="images/Project4/img1.png" data-lightbox="project-4" data-title="Process Queue"><img src="images/Project4/img1.png" alt="Project 4 Image 1"/></a></div>
+                            <div class="swiper-slide"><a href="images/Project4/img2.png" data-lightbox="project-4" data-title="Scheduler Log"><img src="images/Project4/img2.png" alt="Project 4 Image 2"/></a></div>
+                            <div class="swiper-slide"><a href="images/Project4/img3.png" data-lightbox="project-4" data-title="Performance Graph"><img src="images/Project4/img3.png" alt="Project 4 Image 3"/></a></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold mb-3 text-[#E0E1DD]">Operating System Scheduler</h3>
-                        <p class="text-[#BDBDBD] mb-4 text-sm">Developed and implemented core scheduling algorithms (HPF, SRTN, Round Robin) in C within a Linux environment, utilizing key Inter-Process Communication (IPC) mechanisms to handle process synchronization and communication.</p>
+                        <p class="text-[#BDBDBD] mb-4 text-sm">Developed and implemented core scheduling algorithms (HPF, SRTN, Round Robin) in C within a Linux environment, utilizing key Inter-Process Communication (IPC) mechanisms.</p>
                         <div class="flex flex-wrap mb-4">
                             <span class="tech-pill">C</span>
                             <span class="tech-pill">Linux</span>
                             <span class="tech-pill">IPC</span>
-                            <span class="tech-pill">Semaphores</span>
-                            <span class="tech-pill">Shared Memory</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a class="inline-block bg-[#A0C4FF] text-[#0D1B2A] py-2 px-4 rounded-lg font-medium hover:bg-[#778DA9] transition-colors" href="#">Live Demo</a>
+                            <a class="inline-block border border-[#A0C4FF] text-[#A0C4FF] py-2 px-4 rounded-lg font-medium hover:bg-[#A0C4FF] hover:text-[#0D1B2A] transition-colors" href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5: Paint for Kids -->
+                <div class="project-card animate-scroll">
+                    <div class="swiper project-5-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="images/Project5/img1.jpg" data-lightbox="project-5" data-title="Main Canvas"><img src="images/Project5/img1.jpg" alt="Project 5 Image 1"/></a></div>
+                            <div class="swiper-slide"><a href="images/Project5/img2.jpg" data-lightbox="project-5" data-title="Color Palette"><img src="images/Project5/img2.jpg" alt="Project 5 Image 2"/></a></div>
+                            <div class="swiper-slide"><a href="images/Project5/img3.jpg" data-lightbox="project-5" data-title="Drawing Shapes"><img src="images/Project5/img3.jpg" alt="Project 5 Image 3"/></a></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold mb-3 text-[#E0E1DD]">Paint for Kids</h3>
+                        <p class="text-[#BDBDBD] mb-4 text-sm">A simple and fun drawing application for children, built using C++ with a focus on Object-Oriented Programming principles like inheritance and polymorphism.</p>
+                        <div class="flex flex-wrap mb-4">
+                            <span class="tech-pill">C++</span>
+                            <span class="tech-pill">OOP</span>
+                            <span class="tech-pill">Inheritance</span>
                         </div>
                         <div class="flex space-x-4">
                             <a class="inline-block bg-[#A0C4FF] text-[#0D1B2A] py-2 px-4 rounded-lg font-medium hover:bg-[#778DA9] transition-colors" href="#">Live Demo</a>
@@ -202,7 +289,15 @@
             <p class="text-sm">© 2024 Abdalrahman Essam. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 
 </body>
 </html>
