@@ -40,8 +40,8 @@ body {
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     border: 1px solid #415A77;
     
-    width: 200px;  
-    height: 200px; 
+    /* width: 200px;  
+    height: 200px;  */
     display: flex;
     flex-direction: column;
     justify-content: center;
