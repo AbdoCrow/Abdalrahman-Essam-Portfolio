@@ -51,3 +51,76 @@ window.addEventListener('scroll', () => {
 
 // Initial check on page load
 handleScrollAnimation();
+
+// Initialize Lightbox - this one setting works for all galleries
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+});
+
+// --- Swiper Initializations ---
+
+// Initialize Swiper for Project 1
+const swiper1 = new Swiper('.project-1-swiper', {
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+// Initialize Swiper for Project 2
+const swiper2 = new Swiper('.project-2-swiper', {
+  loop: true,
+  autoplay: {
+    delay: 2800,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+// Initialize Swiper for Project 3
+const swiper3 = new Swiper('.project-3-swiper', {
+  loop: true,
+  autoplay: {
+    delay: 3100,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+// Initialize Swiper for Project 4
+const swiper4 = new Swiper('.project-4-swiper', {
+  loop: true,
+  autoplay: {
+    delay: 3400,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+// Initialize Swiper for Project 5
+const swiper5 = new Swiper('.project-5-swiper', {
+  loop: true,
+  autoplay: {
+    delay: 3700,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});

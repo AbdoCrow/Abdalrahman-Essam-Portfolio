@@ -208,3 +208,28 @@ body {
     -webkit-text-stroke: 2px #E0E1DD;
     color: transparent;
 }
+
+/* Make the swiper container fit the image area */
+.swiper {
+  width: 100%;
+  height: 22rem; /* This matches your original h-64 class */
+}
+
+/* Ensure images inside the slider fill the space */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #1B263B; /* Fallback background */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
